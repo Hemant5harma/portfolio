@@ -2,7 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Add any global styles here */
+/* Custom Global Styles */
 body {
-  @apply bg-gray-900 text-white;
+  @apply bg-gray-900 text-white; /* Tailwind utilities */
+}
+
+/* Fixes for specific elements */
+h1, h2, h3, h4 {
+  @apply font-bold text-white;
+}
+
+a {
+  @apply text-green-400 hover:underline;
 }

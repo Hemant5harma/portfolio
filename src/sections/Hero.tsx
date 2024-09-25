@@ -1,12 +1,14 @@
+'use client'
+
 import { motion } from 'framer-motion';
 import { useEffect, useRef } from 'react';
-import StarSVG from '../assets/icons/star.svg'; // Adjust the path accordingly
 
 type StarProps = {
   size: number;
   top: number;
   left: number;
 };
+
 const Star = ({ size, top, left }: StarProps) => (
   <motion.svg
     viewBox="0 0 24 24"
@@ -74,7 +76,6 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0" />
-      {/* Updated to use the Star component with SVG */}
       <Star size={20} top={10} left={20} />
       <Star size={40} top={30} left={80} />
       <Star size={50} top={70} left={15} />
