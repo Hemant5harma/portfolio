@@ -8,6 +8,7 @@ import Hero from "@/sections/Hero";
 import FeaturedProjects from "@/sections/Tape";
 
 
+
 export default function Home() {
   return (
     <div>
