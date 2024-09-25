@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import Card from '../components/Card';
 
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import Card from '@/components/Card';
 
 interface Result {
   title: string;
