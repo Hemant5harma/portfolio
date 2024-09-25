@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { motion } from 'framer-motion';
 import { useEffect, useRef } from 'react';
@@ -112,7 +112,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
+          I specialize in transforming designs into functional, high-performing web applications. Let&apos;s discuss your next project.
         </motion.p>
         <motion.div
           className="space-x-4"
@@ -124,7 +124,7 @@ export default function Hero() {
             Explore My Work ↓
           </button>
           <button className="bg-white text-gray-900 px-6 py-3 rounded-full hover:bg-opacity-90 transition-colors">
-            👋 Let's Connect
+            👋 Let&apos;s Connect
           </button>
         </motion.div>
       </div>

@@ -6,7 +6,7 @@ import Footer from "@/sections/Footer";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import FeaturedProjects from "@/sections/Tape";
-import Testimonials from "@/sections/Testimonials";
+
 
 export default function Home() {
   return (
@@ -14,7 +14,6 @@ export default function Home() {
       <Header/>
       <Hero/>
       <FeaturedProjects/>
-
       <ContactSection/>
       <AboutMe/>
       <Footer/>
